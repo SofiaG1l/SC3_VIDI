@@ -46,6 +46,10 @@ These references are just starting points.
 #### Other important sources:
 * Wilke, C. Fundamentals of Data Visualization: A Primer on Making Informative and Compelling Figures. First edition. Sebastopol, CA: O’Reilly Media, 2019.
 
+*In general, you can find many good books here:*
+
+* “Home | Bookdown.” Accessed February 19, 2024. https://bookdown.org/.
+
 
 
 
