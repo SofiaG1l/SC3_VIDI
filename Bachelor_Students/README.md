@@ -44,11 +44,14 @@ These references are just starting points.
 6. 	Reis BY, Brownstein JS (2010) Measuring the impact of health policies using Internet search patterns: the case of abortion. BMC Public Health 10:514. https://doi.org/10.1186/1471-2458-10-514
 
 #### Other important sources:
-* Wilke, C. Fundamentals of Data Visualization: A Primer on Making Informative and Compelling Figures. First edition. Sebastopol, CA: O’Reilly Media, 2019.
-
 *In general, you can find many good books here:*
 
 * “Home | Bookdown.” Accessed February 19, 2024. https://bookdown.org/.
+
+Such as:
+
+* Wilke, C. Fundamentals of Data Visualization: A Primer on Making Informative and Compelling Figures. First edition. Sebastopol, CA: O’Reilly Media, 2019. https://clauswilke.com/dataviz/
+* Legler, Paul Roback and Julie, and Julie Legler. Beyond Multiple Linear Regression. Chapman and Hall/CRC, 2020. https://bookdown.org/roback/bookdown-BeyondMLR/.
 
 
 
