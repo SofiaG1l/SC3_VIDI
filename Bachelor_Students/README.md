@@ -2,17 +2,23 @@
 
 This folder contains the information related with the bachelor project that I am supervising together with [Trivik Verma](https://trivikverma.com/). This project was supervised between February and June 2024 as part of the Faculty of Technology, Policy and Management (TU Delft) bachelor's thesis program.
 
-## From intention to adoption of green energy: Demographic, Cultural, and Economic differences in the EU
+### From intention to adoption of green energy: Demographic, Cultural, and Economic differences in the EU
 
-#### Abstract:
+**Abstract:**
 The climate crisis is one of the most pressing challenges of the 21st century. An important step in addressing it is that countries transition from fossil fuel to renewable energy, such as solar and wind energy. For this, it is important to understand the drivers and constraints of societies’ transition to green energy usage, where government incentives play a vital role. In this work, we aim to analyze the association between renewable energy intention adoption and actual adoption in Northern and Southern European Union (EU) countries, thereby shedding more light on the drivers and constrains related to the transitions. We propose to use publicly available data from Google Trends and from the Facebook Marketing Manager together with classic survey and census data.
 
 
-### How to access Google Trends and from the Facebook Marketing Manager:
+ 
+### How to access Google Trends and from the Facebook Marketing Manager
 * [Using the Facebook Marketing API](https://github.com/SofiaG1l/Taller_COLMEX_API/blob/main/Facebook_API/Facebook_API_FB_en.md)
 * [Google Trends](https://trends.google.com/trends/)
 
+If you are curios of how to use APIs in general, you can check Chapter 2 of:
 
+* Albrecht, Jens, Sidharth Ramachandran, and Christian Winkler. Blueprints for Text Analytics Using Python. O’Reilly Media, 2020.
+
+
+ 
 ### Recommended reading
 These references are just starting points.
 
@@ -37,6 +43,8 @@ These references are just starting points.
 5. 	Bolea L, Duarte R, Chóliz JS (2018) From convergence to divergence? Some new insights into the evolution of the European Union. Structural Change and Economic Dynamics 47:82–95. https://doi.org/10.1016/j.strueco.2018.07.006
 6. 	Reis BY, Brownstein JS (2010) Measuring the impact of health policies using Internet search patterns: the case of abortion. BMC Public Health 10:514. https://doi.org/10.1186/1471-2458-10-514
 
+#### Other important sources:
+* Wilke, C. Fundamentals of Data Visualization: A Primer on Making Informative and Compelling Figures. First edition. Sebastopol, CA: O’Reilly Media, 2019.
 
 
 
