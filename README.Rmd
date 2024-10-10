@@ -3,9 +3,8 @@ title: "TU Delft Post Doc (2022-2024)"
 author: "Sofia Gil-Clavel"
 date: October 10th, 2024.
 output:
-  html_document:
+  md_document:
     toc: true
-    theme: united
 # bibliography: references.bib
 ---
 
