@@ -5,16 +5,11 @@
     -   [2. Database of articles about individuals’ and societies’
         factors associated with climate change
         adaptation](#database-of-articles-about-individuals-and-societies-factors-associated-with-climate-change-adaptation)
-        -   [Validating the data using
-            ASReview](#validating-the-data-using-asreview)
-        -   [Cleaning the text and adding the articles’ researchers’
-            affiliation and researched
-            countries](#cleaning-the-text-and-adding-the-articles-researchers-affiliation-and-researched-countries)
     -   [3. Two applications of the algorithm and the
         database](#two-applications-of-the-algorithm-and-the-database)
         -   [(a) Patterns in Reported Adaptation Constraints: Insights
-            from Peer-Reviewed Literature on Flood and Sea-Level
-            Rise](#a-patterns-in-reported-adaptation-constraints-insights-from-peer-reviewed-literature-on-flood-and-sea-level-rise)
+            from Peer-Reviewed Literature on Floods and Sea-Level
+            Rise](#a-patterns-in-reported-adaptation-constraints-insights-from-peer-reviewed-literature-on-floods-and-sea-level-rise)
         -   [(b) Incremental and Transformational Climate Change
             Adaptation Factors in Agriculture Worldwide: A Natural
             Language Processing Comparative
@@ -106,103 +101,37 @@ Humanities, and Environmental Science. For both batches, we searched for
 articles related to adaptation to climate change using search terms
 related with climate change (e.g. “climat\[a-z\]\* change”,“…”).
 
-### Validating the data using ASReview
-
-The first data batch was retrieved during the last week of August 2022,
-resulting in 30,000 articles. As not all of the articles were about the
-studied topic (factors associated with undertaken CCA measures), we
-needed to categorize the articles as “relevant” or “irrelevant.” For
-this, we organized a labeling session where, besides us, eight PhD
-candidates experts in CCA participated. To simplify labelers work, we
-performed a Non-Negative Matrix Factorization on the articles’ titles
-and abstracts and then give the labelers the articles corresponding to
-one cluster.
-
-Using the articles clustered in that way, we categorized 5% of the
-articles as relevant or irrelevant to the study of CCA using ASReview
-(ASReview LAB developers, 2022). To train the participants, we explained
-the problem to them and we showed them several examples of the type of
-articles’ abstract that were useful to our study (Appendix B). In terms
-of the active learning classifier, we used the following settings:
-feature extraction technique – TF-IDF; classifier – Naïve Bayes; query
-strategy – Mixed (95% Maximum and 5% Random); and balance strategy –
-Dynamic resampling (Double). The labeling session lasted 4 hours and, at
-the end, we had 1600 labeled articles where 33% were relevant.
-
-To classify the rest of the articles, we trained a simple perceptron
-classifier with a Binary Cross Entropy and Sigmoid loss function
-(BCEWithLogitsLoss function from the python package PyTorch (PyTorch,
-n.d.)). We split the labeled database into 64% training, 16% validation,
-and 20% test sets. The model had 79% accuracy and resulted in 2438
-articles classified as related to human adaptation to climate change.
-
-To validate that the 2438 articles were about human adaptation to
-climate change and that they talked about the possible drivers and
-constraints, we (together with a student assistant and two PhD
-candidates) read the abstracts from the articles and when the article
-was relevant we downloaded its pdf. This final step took between
-December 2022 and February 2023, and resulted in the retrieval of around
-842 articles.
-
-The second data batch was retrieved during the last week of January
-2024. For this, we constraint the search to articles published between
-August 2022 and January 2024. This resulted in 10279 articles. To
-categorize the data as relevant and irrelevant, we used the 842 articles
-obtained for the first batch to update the simple perceptron classifier
-with a Binary Cross Entropy and Sigmoid loss function. This gave us 548
-articles, which we manually validated and downloaded their pdfs. The
-second batch of data consists of 253 articles.
-
-### Cleaning the text and adding the articles’ researchers’ affiliation and researched countries
-
-To clean the text, we followed the steps 1 to 4 showed and explain in
-[our algorithm article](https://arxiv.org/abs/2306.09737). In this step,
-we also add the authors’ affiliation and the articles’ researched
-countries. The authors’ affiliation was extracted from Scopus metadata.
-The articles researched countries were extracted coding an algorithm
-that uses sentences’ Name-Entity-Recognition (NER) together with the
-“en\_core\_web\_trf” spaCy model (spaCy, n.d.-a) to extract the
-articles’ Geopolitical entity (GPE), Locations (LOC), and Nationalities
-(NORP). The algorithm tries to identify the country based on the GPE,
-LOC, and NORP. It follows the next sequence. It starts in the title, if
-it does not find the country based on the GPE, LOC, and NORP, then it
-moves to the abstract. Finally, if it does not find the country neither
-in the title nor in the abstract, then it looks for the region (such as,
-North America, Sub-Saharan Africa) using regex. By doing this, we
-identified all the authors’ affiliation and 83% of the countries and
-regions studied. We validated the results by manually checking 22% of
-the articles.
+The full explanation of our data derivation is here: \* Gil-Clavel,
+Sofia; Filatova, Tatiana, 2024, “Interrelated Climate Change Adaptation
+Measures and Factors”, <https://doi.org/10.17026/SS/PYZCXK>, DANS Data
+Station Social Sciences and Humanities, DRAFT VERSION.
 
 The codes to reproduce and replicate the work are
 [here](https://github.com/SofiaG1l/Data_CCA).
 
 ## 3. Two applications of the algorithm and the database
 
-### (a) Patterns in Reported Adaptation Constraints: Insights from Peer-Reviewed Literature on Flood and Sea-Level Rise
+### (a) Patterns in Reported Adaptation Constraints: Insights from Peer-Reviewed Literature on Floods and Sea-Level Rise
 
-**Abstract** Understanding which climate change adaptation constraints
-manifest for different actors – governments, communities, individuals
-and households – is essential, as adaptation is turning into a matter of
-survival. Though rich qualitative research reveals constraints for
-diverse cases, methods to consolidate knowledge and elicit patterns in
-adaptation constraints for various actors and hazards are scarce. We
-fill this gap by analyzing associations between different adaptations
-and actors’ constraints in adaptation to climate-induced floods and
-sealevel rise. Our novel approach derives textual data from
-peer-reviewed articles (published before February 2024) by using natural
-language processing, supervised learning, thematic coding books, and
+**Abstract** Understanding climate change adaptation constraints for
+different actors – governments, communities, individuals, and households
+– is essential, as adaptation turns into a matter of survival. Though
+rich qualitative research reveals constraints for diverse cases, methods
+to consolidate knowledge and elicit patterns in adaptation constraints
+for various actors are scarce. Therefore, this work analyzes
+associations between different adaptations and actors’ constraints to
+climate-induced floods and sea-level rise. Our novel approach derives
+textual data from peer-reviewed articles (published before February
+2024) by using natural language processing, thematic coding books, and
 network analysis. Results show that social capital, economic factors,
-and government support are constraints shared among all actors. With
-respect to adaptation types, communities are frequently associated with
-maladaptation, while individuals and households are frequently
-associated with transformational adaptation.
+and government support are constraints shared among all actors.
 
 This work is currently in the second round of revisions in a journal.
 The working paper can be accessed
 [here](https://osf.io/preprints/socarxiv/3cqvn). The codes to reproduce
-and replicate the work are
-[here](https://github.com/SofiaG1l/FloodSLR_CCA). The final database
-that results from the analysis is stored in DANS under:
+and replicate the work will be published upon publication of the article
+[here](https://github.com/SofiaG1l/FloodSLR_CCA). Also, the final
+database that results from the analysis will be stored in DANS under:
 
 -   Gil-Clavel, Sofia; Filatova, Tatiana, 2024, “Interrelated Climate
     Change Adaptation Measures and Factors”,
@@ -240,10 +169,10 @@ change.
 
 This work is currently in the second round of revisions in a journal.
 The working paper can be accessed
-[here](https://osf.io/preprints/socarxiv/3dp5e) and the codes to
-reproduce and replicate the work are
+[here](https://osf.io/preprints/socarxiv/3dp5e). The codes to reproduce
+and replicate the work will be published upon publication of the article
 [here](https://github.com/SofiaG1l/Farmers_CCA). The final databases
-that result from the analysis is stored in DANS under:
+that result from the analysis will be stored in DANS under:
 
 1.  Gil-Clavel, Sofia; Filatova, Tatiana, 2024, “Interrelated Climate
     Change Adaptation Measures and Factors”,
