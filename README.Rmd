@@ -42,7 +42,7 @@ This work is currently under revisions in a journal. The working paper can be ac
 The data for our two applications comes from Scopus (ELSEVIER, 2023). The data was retrieved in two batches: during the last week of August 2022, and during the last week of January 2024. We derived the data from articles that were about human adaptation to climate change and that belonged to the categories: Multidisciplinary, Social Sciences, Arts and Humanities, and Environmental Science. For both batches, we searched for articles related to adaptation to climate change using search terms related with climate change (e.g. "climat[a-z]* change","...").
 
 The full explanation of our data derivation is here:
-* Gil-Clavel, Sofia; Filatova, Tatiana, 2024, "Interrelated Climate Change Adaptation Measures and Factors", [https://doi.org/10.17026/SS/PYZCXK](https://doi.org/10.17026/SS/PYZCXK), DANS Data Station Social Sciences and Humanities, DRAFT VERSION.
+* Gil-Clavel, Sofia; Filatova, Tatiana, 2024, "Interrelated Climate Change Adaptation Measures and Factors", [https://doi.org/10.17026/SS/PYZCXK](https://doi.org/10.17026/SS/PYZCXK), DANS Data Station Social Sciences and Humanities, V1.
 
 The codes to reproduce and replicate the work are [here](https://github.com/SofiaG1l/Data_CCA).
 
@@ -55,7 +55,7 @@ The codes to reproduce and replicate the work are [here](https://github.com/Sofi
 
 This work is currently in the second round of revisions in a journal. The working paper can be accessed [here](https://osf.io/preprints/socarxiv/3cqvn). The codes to reproduce and replicate the work will be published upon publication of the article [here](https://github.com/SofiaG1l/FloodSLR_CCA). Also, the final database that results from the analysis will be stored in DANS under:
 
-* Gil-Clavel, Sofia; Filatova, Tatiana, 2024, "Interrelated Climate Change Adaptation Measures and Factors", [https://doi.org/10.17026/SS/PYZCXK](https://doi.org/10.17026/SS/PYZCXK), DANS Data Station Social Sciences and Humanities, DRAFT VERSION; FloodsSLRDataFrame_Phase1.csv [fileName].
+* Gil-Clavel, Sofia; Filatova, Tatiana, 2024, "Interrelated Climate Change Adaptation Measures and Factors", [https://doi.org/10.17026/SS/PYZCXK](https://doi.org/10.17026/SS/PYZCXK), DANS Data Station Social Sciences and Humanities, V1; FloodsSLRDataFrame_Phase1.csv [fileName].
 
 
 
@@ -66,9 +66,9 @@ This work is currently in the second round of revisions in a journal. The workin
 
 This work is currently in the second round of revisions in a journal. The working paper can be accessed [here](https://osf.io/preprints/socarxiv/3dp5e). The codes to reproduce and replicate the work will be published upon publication of the article [here](https://github.com/SofiaG1l/Farmers_CCA). The final databases that result from the analysis will be stored in DANS under:
 
-1. Gil-Clavel, Sofia; Filatova, Tatiana, 2024, "Interrelated Climate Change Adaptation Measures and Factors", https://doi.org/10.17026/SS/PYZCXK, DANS Data Station Social Sciences and Humanities, DRAFT VERSION; FarmersDataFrame_Phase1.csv [fileName].
+1. Gil-Clavel, Sofia; Filatova, Tatiana, 2024, "Interrelated Climate Change Adaptation Measures and Factors", https://doi.org/10.17026/SS/PYZCXK, DANS Data Station Social Sciences and Humanities, V1; FarmersDataFrame_Phase1.csv [fileName].
 
-2. Gil-Clavel, Sofia; Filatova, Tatiana, 2024, "Interrelated Climate Change Adaptation Measures and Factors", https://doi.org/10.17026/SS/PYZCXK, DANS Data Station Social Sciences and Humanities, DRAFT VERSION; FarmersDataFrame_Phase2_AllConnections.csv [fileName].
+2. Gil-Clavel, Sofia; Filatova, Tatiana, 2024, "Interrelated Climate Change Adaptation Measures and Factors", https://doi.org/10.17026/SS/PYZCXK, DANS Data Station Social Sciences and Humanities, V1; FarmersDataFrame_Phase2_AllConnections.csv [fileName].
 
 
 

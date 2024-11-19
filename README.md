@@ -104,7 +104,7 @@ related with climate change (e.g. “climat\[a-z\]\* change”,“…”).
 The full explanation of our data derivation is here: \* Gil-Clavel,
 Sofia; Filatova, Tatiana, 2024, “Interrelated Climate Change Adaptation
 Measures and Factors”, <https://doi.org/10.17026/SS/PYZCXK>, DANS Data
-Station Social Sciences and Humanities, DRAFT VERSION.
+Station Social Sciences and Humanities, V1.
 
 The codes to reproduce and replicate the work are
 [here](https://github.com/SofiaG1l/Data_CCA).
@@ -136,8 +136,8 @@ database that results from the analysis will be stored in DANS under:
 -   Gil-Clavel, Sofia; Filatova, Tatiana, 2024, “Interrelated Climate
     Change Adaptation Measures and Factors”,
     <https://doi.org/10.17026/SS/PYZCXK>, DANS Data Station Social
-    Sciences and Humanities, DRAFT VERSION;
-    FloodsSLRDataFrame\_Phase1.csv \[fileName\].
+    Sciences and Humanities, V1; FloodsSLRDataFrame\_Phase1.csv
+    \[fileName\].
 
 ### (b) Incremental and Transformational Climate Change Adaptation Factors in Agriculture Worldwide: A Natural Language Processing Comparative Analysis
 
@@ -177,11 +177,11 @@ that result from the analysis will be stored in DANS under:
 1.  Gil-Clavel, Sofia; Filatova, Tatiana, 2024, “Interrelated Climate
     Change Adaptation Measures and Factors”,
     <https://doi.org/10.17026/SS/PYZCXK>, DANS Data Station Social
-    Sciences and Humanities, DRAFT VERSION; FarmersDataFrame\_Phase1.csv
+    Sciences and Humanities, V1; FarmersDataFrame\_Phase1.csv
     \[fileName\].
 
 2.  Gil-Clavel, Sofia; Filatova, Tatiana, 2024, “Interrelated Climate
     Change Adaptation Measures and Factors”,
     <https://doi.org/10.17026/SS/PYZCXK>, DANS Data Station Social
-    Sciences and Humanities, DRAFT VERSION;
+    Sciences and Humanities, V1;
     FarmersDataFrame\_Phase2\_AllConnections.csv \[fileName\].
