@@ -126,7 +126,7 @@ textual data from peer-reviewed articles (published before February
 network analysis. Results show that social capital, economic factors,
 and government support are constraints shared among all actors.
 
-This work is currently in the second round of revisions in a journal.
+This work is published in the special issue "Social Limits To Adaptation". The final article can be accessed [here](https://doi.org/10.1016/j.cosust.2024.101502)
 The working paper can be accessed
 [here](https://osf.io/preprints/socarxiv/3cqvn). The codes to reproduce
 and replicate the work will be published upon publication of the article
