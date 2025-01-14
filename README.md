@@ -107,7 +107,7 @@ Measures and Factors”, <https://doi.org/10.17026/SS/PYZCXK>, DANS Data
 Station Social Sciences and Humanities, V1.
 
 The codes to reproduce and replicate the work are
-[here](https://github.com/SofiaG1l/Data_CCA).
+[here](https://github.com/SofiaG1l/Database_CCA).
 
 ## 3. Two applications of the algorithm and the database
 
