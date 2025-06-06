@@ -88,7 +88,7 @@ instrumental when performing literature reviews.
 This work is currently under revisions in a journal. The working paper
 can be accessed [here](https://arxiv.org/abs/2306.09737) and the codes
 to reproduce and replicate the work are
-[here](https://github.com/SofiaG1l/NLPnetworks4LR).
+[here](https://github.com/SofiaG1l/NLP4LitRev).
 
 ## 2. Database of articles about individuals’ and societies’ factors associated with climate change adaptation
 
