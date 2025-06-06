@@ -167,7 +167,7 @@ countries having an advantage, whereas farmers in low- and middle-income
 countries require these the most for effective adaptation to climate
 change.
 
-This work is currently in the second round of revisions in a journal.
+The peer-reviewed article is [here](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0318784).
 The working paper can be accessed
 [here](https://osf.io/preprints/socarxiv/3dp5e). The codes to reproduce
 and replicate the work will be published upon publication of the article
